@@ -5,7 +5,7 @@ spring:
     database: mysql #设置方言
     show_sql: true #显示sql
     hibernate:
-      ddl-auto: update
+#      ddl-auto: update
       format_sql: true #格式化sql
 #      naming:
 #        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl #设置数据库sql、不加下划线

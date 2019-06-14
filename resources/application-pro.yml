@@ -1,4 +1,5 @@
-profile: pro-1.0
+spring:
+  profile: pro-1.0
 redis:
   host: 39.107.226.36
   password:

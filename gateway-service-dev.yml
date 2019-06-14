@@ -1,4 +1,6 @@
 spring:
+  kafka:
+    bootstrap-servers: 39.107.226.36:9082
   profile: dev-1.0
 #端口设置
 server:

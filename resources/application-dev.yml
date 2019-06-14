@@ -1,5 +1,6 @@
 files:
-  name: normal
+  name: dev
+
 redis:
   host: 39.107.226.36
   password:

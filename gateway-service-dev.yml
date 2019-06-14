@@ -1,10 +1,5 @@
 spring:
   profile: dev-1.0
-
-redis:
-  host: 39.107.226.36
-  password:
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://39.107.226.36:8761/eureka/
+#端口设置
+server:
+  port: 9001

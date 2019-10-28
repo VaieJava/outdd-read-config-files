@@ -2,4 +2,4 @@ spring:
   profile: dev-1.0
 #端口设置
 server:
-  port: 8762
+  port: 9093

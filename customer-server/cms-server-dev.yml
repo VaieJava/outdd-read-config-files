@@ -1,0 +1,19 @@
+#端口设置
+server:
+  port: 8861
+spring:
+  profile: pro-1.0
+  datasource:
+    ##数据库连接信息
+    name: member
+    url: jdbc:mysql://39.107.226.36:3306/oauth2?useUnicode=true&characterEncoding=utf8
+    freemarker:
+      request-context-attribute: request
+redis:
+  host: 39.107.226.36
+  password:
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://39.107.226.36:8762/eureka/
+#      defaultZone: http://127.0.0.1:8761/eureka/

@@ -1,6 +1,6 @@
 #端口设置
 server:
-  port: 9002
+  port: 9005
 
 spring:
   profile: dev-1.0
@@ -36,4 +36,5 @@ eureka:
     lease-expiration-duration-in-seconds: 10
   client:
     service-url:
-      defaultZone: http://127.0.0.1:8761/eureka/
+#      defaultZone: http://127.0.0.1:8761/eureka/
+      defaultZone: http://39.107.226.36:8762/eureka/

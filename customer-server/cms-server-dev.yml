@@ -2,7 +2,7 @@
 server:
   port: 8861
 spring:
-  profile: pro-1.0
+  profile: dev-1.0
   datasource:
     ##数据库连接信息
     name: member

@@ -1,6 +1,7 @@
 spring:
   profile: pro-1.0
-
+server:
+  port: 9003
 
 
 redis:

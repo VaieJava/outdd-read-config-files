@@ -2,7 +2,7 @@ common: common-1.0
 
 spring:
   jpa:
-    database: mysql #设置方言
+    database: mysql #设置方言1
     show_sql: true #显示sql
     hibernate:
 #      ddl-auto: update
